@@ -1,0 +1,137 @@
+body{
+    margin: 4% 20% 4% 20%;
+}
+.wrapper{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f5f5f5;
+    padding: 3% 0 3% 0;
+    border: solid;
+    border-width: 0.8vh 0 0.8vh 0;
+    border-color: #666;
+}
+.inside{
+    
+    margin: auto;
+    padding: 0 5% 0 5%;
+}
+.header{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40%;
+    border: solid;
+    border-color: #ccccccaf;
+    border-width: 0 0 0.3vh 0;
+}
+.name{
+    font-size: 1vw;
+    margin: 0;
+    padding: 0;
+}
+#title{
+    font-size: 1.2vw;
+    font-style: italic;
+    margin-top: -7%;
+}
+.headerRight{
+    font-size: 1.2vw;
+    padding-top: 4%;
+}
+a {
+    text-decoration: none;
+}
+
+.skillsWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    font-size: 1.2vw;
+    border: solid;
+    border-color: #ccccccaf;
+    border-width: 0 0 0.3vh 0;
+}
+.skillsWrapper > * {
+    max-width: 20%;
+    min-width: 20%;
+}
+
+#leftSide {
+    font-weight: normal;
+    font-style: italic;
+}
+#skillTitle{
+    font-weight: normal;
+}
+
+.technicalWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10%;
+    font-size: 1.2vw;
+    border: solid;
+    border-color: #ccccccaf;
+    border-width: 0 0 0.3vh 0;
+    padding-left: 1.1vw;
+}
+.technicalDescription {
+    padding-top: 1.2%
+}
+
+.experienceWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 15%;
+    font-size: 1.2vw;
+    border: solid;
+    border-color: #ccccccaf;
+    border-width: 0 0 0.3vh 0;
+}
+
+.experienceWrapper > * {
+    max-width: 65%;
+}
+.description {
+    padding-top: 1.4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+.qubiz {
+    border: solid;
+    border-color: #ccccccaf;
+    border-width: 0 0 0.3vh 0;
+}
+.company {
+    font-size: 1.5vw;
+}
+.titleOfPosition{
+    font-size: 1.1vw;
+    margin-bottom: 1vw;
+}
+.jobDescription {
+    padding-bottom: 1.5vh;
+}
+.educationWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 8%;
+    font-size: 1.2vw;
+    border: solid;
+    border-color: #ccccccaf;
+    border-width: 0 0 0.3vh 0;
+    padding-left: 1.1vw;
+}
+#universityName {
+    font-size: 1.5vw;
+}
