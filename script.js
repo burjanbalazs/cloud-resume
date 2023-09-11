@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const counter = document.getElementById("visitorcounter")
 
-    const functionURL = "https://cloud-resume.azurewebsites.net/api/cloud-resume-visitorCounter?code=lWDMW1SBB8pNpWVEVVzKHIFfDuhPmAqFIoynky-QtI8-AzFuQiFQMQ=="
+    const functionURL = process.env.FUNC_KEY
 
     const requestData = {
         method: 'POST',
